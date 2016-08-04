@@ -7,55 +7,43 @@ body{
   font-size: 15px;
   line-height: 1.6em;
 }
-
 h1, h2, h3{
   font-family: 'Montserrat', sans-serif;
 }
-
 h1{
-  color: #37951E;
-  font-size: 22px;
+  color: #D24545;
+  font-size: 24px;
 }
-
 h2{
-  color: #4EBE30;
+  color: #E07979;
   font-size: 18px;
   font-weight: 300;
 }
-
 h3{
   font-size: 16px;
   font-weight: 300;
 }
-
 a{
   color: #4F4D4D;
   text-decoration: none;
 }
-
 a:hover{
-  color: #4EBE30;
+  color: #DD5555;
   text-decoration: none;
 }
-
 table{
   font-weight: 300;
   font-size: 15px;
   line-height: 1.6em;
 }
 
-
-
-
 .text-center {
   text-align: center;
 }
-
 .container{
   width: 620px;
   margin: 30px auto;
 }
-
 .card{
   background: white;
   padding: 20px;
@@ -63,26 +51,36 @@ table{
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
-
 .image-small{
   height: 60px;
   width: 60px;
   padding: 10px;
-  -webkit-filter: grayscale(80%);
+  -webkit-filter: grayscale(90%);
 }
+.image-small:hover{
+  -webkit-filter: grayscale(0%);
+  transition: all 0.3s ease;
 
+}
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
 }
-
+.list-inline{
+  padding: 0px !important;
+}
 .img-profile{
-  width: 160px;
-  height: 160px;
+  width: 130px;
+  height: 130px;
   border: 3px solid #CCCCCC;
   border-radius: 50%;
 }
-
+.social-flexbox{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 .img-company{
   width: 160px;
   height: auto;
@@ -90,13 +88,17 @@ table{
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  -webkit-filter: grayscale(40%);
+  -webkit-filter: grayscale(50%);
 }
-
+.social-name{
+  margin-top: 10px;
+}
+.img-company:hover{
+  -webkit-filter: grayscale(0%);
+}
 .list-inline li i{
   font-size: 25px;
 }
-
 #footer-message{
   font-size: 12px;
 }
